@@ -1,0 +1,65 @@
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+.input-window {
+    text-align: end;
+    font-size: x-large;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttons div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+button {
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 70px;
+    background-color: #999999;
+}
+button:hover {
+    background-color: #007bff;
+    color: #fafeff;
+}
+#equally:hover {
+    background-color: #00ff7b;
+    color: #fafeff;
+}
+#equally {
+    width: 230px;
+}
+.card-body {
+    background-color: #222222;
+}
+#history {
+    height: 100px;
+}
+#history textarea {
+    border-radius: 5px;
+    background-color: #fffff0;
+    margin-top: 10px;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    border: none;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
